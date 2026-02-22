@@ -21,7 +21,6 @@ import matplotlib.cm as cm
 
 
 PHASES = ["before", "during", "after"]
-# Number of injected frames per phase in our collection runs.
 TOTAL_FRAMES = int(os.environ.get("UART_ATTACK_TOTAL_FRAMES", "100"))
 ATTACKS = [
     ("overflow", "overflow", "CMD=WRITEALL"),
@@ -132,7 +131,6 @@ def plot_heatmap(
     table.set_fontsize(7.5)
     table.scale(1.1, 1.4)
 
-    # Color by "Unblocked" rate: red = bad (attack not blocked).
     cmap = cm.get_cmap("Reds")
     norm = colors.Normalize(vmin=0.0, vmax=100.0)
 

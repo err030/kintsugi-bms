@@ -91,7 +91,6 @@ def main():
     x_min = min([meta["TimelineBeforeStart"]] + (all_x if all_x else []))
     x_max = max([meta["TimelineAfterEnd"]] + (all_x if all_x else []))
 
-    # Import matplotlib after validation to keep error messages clean.
     import matplotlib.pyplot as plt
     import matplotlib.patches as mpatches
 
@@ -101,7 +100,6 @@ def main():
         "before": "#C9C1B8",
         "during": "#7BAE94",
         "after": "#A9CDB8",
-        # Align with the paper's semantics: Blocked is the "good" outcome.
         "rx": "#666666",
         "blocked": "#4C78A8",
         "mon": "#90959B",

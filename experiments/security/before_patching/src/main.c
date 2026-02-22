@@ -39,9 +39,9 @@
 #include "hp_manager.h"
 #include "hp_config.h"
 
-#define MAX_TEST_DATA_BYTES     (15U)                /**< max number of test bytes to be used for tx and rx. */
-#define UART_TX_BUF_SIZE 2048                         /**< UART TX buffer size. */
-#define UART_RX_BUF_SIZE 2048                         /**< UART RX buffer size. */
+#define MAX_TEST_DATA_BYTES     (15U)                
+#define UART_TX_BUF_SIZE 2048                         
+#define UART_RX_BUF_SIZE 2048                         
 #define UART_HWFC APP_UART_FLOW_CONTROL_DISABLED
 #define ENABLE_BMS_THRESHOLD_ATTACK 0
 #define ENABLE_BMS_CALIB_ATTACK 0
@@ -50,12 +50,10 @@
 
 #define BMS_UART_PREAMBLE 0xAA
 #define BMS_UART_MAX_PAYLOAD 64
-// foxBMS-2 Battery Management UART command codes (mxm_battery_management.h)
 #define BMS_CMD_WRITEALL 0x02
 #define BMS_CMD_WRITEDEVICE 0x04
 #define BMS_CMD_SET_THRESH BMS_CMD_WRITEALL
 
-// Demo register map for WRITEDEVICE payloads
 #define BMS_REG_STATE_VOLT 0x20
 #define BMS_REG_STATE_CURR 0x21
 #define BMS_REG_STATE_TEMP 0x22
@@ -64,22 +62,22 @@
 #define BMS_REG_CALIB_TOFF 0x32
 
 typedef struct {
-    float pack_voltage;    // 电池包电压 (V)
-    float pack_current;    // 电池包电流 (A)，充电为正，放电为负 (示意)
-    float pack_temp;       // 电池包温度 (°C)
-    float soc;             // State of Charge (%)
-    float soh;             // State of Health (%) 简单用容量衰减来模拟
+    float pack_voltage;    
+    float pack_current;    
+    float pack_temp;       
+    float soc;             
+    float soh;             
 } bms_state_t;
 
 typedef struct {
-    bool  ovp;     // Over Voltage Protection 触发
-    bool  uvp;     // Under Voltage Protection 触发
-    bool  ocp;     // Over Current Protection 触发
-    bool  otp;     // Over Temperature Protection 触发
-    bool  utp;     // Under Temperature Protection 触发
+    bool  ovp;     
+    bool  uvp;     
+    bool  ocp;     
+    bool  otp;     
+    bool  utp;     
 } bms_fault_flags_t;
 
-// BMS 关键阈值（用于保护与攻击目标）
+// BMS 关键阈值
 typedef struct {
     float ovp;
     float uvp;
@@ -114,24 +112,20 @@ static uint8_t g_bms_last_seq;
 //传感器状态
 static void simulate_pack_voltage_current_temp(bms_state_t * s);
 
-// UART RX attack path (mark used to avoid GC)
 void bms_uart_rx_task(void *pv) __attribute__((used));
 
 //Monitoring
 static void bms_monitor_task(void *pv) {
     (void)pv;
     for (;;) {
-        // 这里本来应该从 ADC / 传感器读数据，
-        // 我们先用一个简单的“合成波形”来模拟现实情况：
         simulate_pack_voltage_current_temp(&g_bms_state);
 
-        // 打印日志，便于 PPT 截图
         printf("[BMS][MON] V=%.1fV I=%.1fA T=%.1fC\r\n",
                g_bms_state.pack_voltage,
                g_bms_state.pack_current,
                g_bms_state.pack_temp);
 
-        vTaskDelay(pdMS_TO_TICKS(100));   // 10Hz 采样
+        vTaskDelay(pdMS_TO_TICKS(100));  
     }
 }
 
@@ -139,25 +133,23 @@ static void bms_monitor_task(void *pv) {
 //soc根据电流积分更新 soh每过一段时间略微下降，模拟容量衰减
 static void bms_estimation_task(void *pv) {
     (void)pv;
-    const float nominal_capacity_Ah = 50.0f;     // 假设 50Ah
-    const float dt_s = 0.1f;                    // 100ms
+    const float nominal_capacity_Ah = 50.0f;     
+    const float dt_s = 0.1f;                    
     for (;;) {
-        float i = g_bms_state.pack_current;     // A
-        // 库伦计数: ΔSoC = - I * dt / (C * 3600)
+        float i = g_bms_state.pack_current;     
         float delta_soc = -(i * dt_s) / (nominal_capacity_Ah * 3600.0f) * 100.0f;
         g_bms_state.soc += delta_soc;
 
         if (g_bms_state.soc > 100.0f) g_bms_state.soc = 100.0f;
         if (g_bms_state.soc < 0.0f)   g_bms_state.soc = 0.0f;
 
-        // 非常简化的 SoH: 缓慢线性下降
         static float cycle_counter = 0.0f;
         cycle_counter += dt_s;
         if (cycle_counter > 60.0f) {
             cycle_counter = 0.0f;
-            g_bms_state.soh -= 0.01f;   // 每 60s 掉 0.01%
+            g_bms_state.soh -= 0.01f;   
             if (g_bms_state.soh < 80.0f) {
-                g_bms_state.soh = 80.0f; // 假设最低 80%
+                g_bms_state.soh = 80.0f;
             }
         }
 
@@ -196,15 +188,12 @@ static void bms_protection_task(void *pv) {
                    g_bms_faults.otp,
                    g_bms_faults.utp);
 
-            // 真实系统里这里会：断开接触器 / 减小功率 / 上报 DTC
-            // 你可以简单打印 “Cutoff contactor” 之类的提示文字
         }
 
-        vTaskDelay(pdMS_TO_TICKS(50)); // 20Hz 保护扫描
+        vTaskDelay(pdMS_TO_TICKS(50)); 
     }
 }
 
-//Diagonostic - 这边先不实现了,不是必要的
 //Communication - 虚拟CAN帧
 static void bms_comm_task(void *pv) {
     (void)pv;
@@ -216,12 +205,11 @@ static void bms_comm_task(void *pv) {
                (int)(g_bms_faults.ovp || g_bms_faults.uvp ||
                      g_bms_faults.ocp || g_bms_faults.otp ||
                      g_bms_faults.utp));
-        vTaskDelay(pdMS_TO_TICKS(500)); // 2Hz 广播
+        vTaskDelay(pdMS_TO_TICKS(500)); 
     }
 }
 
 static uint8_t bms_crc8_mxm(const uint8_t *data, uint8_t len) {
-    // CRC8 (poly 0xA6) per foxBMS-2 mxm_crc8.c
     static const uint8_t table[256] = {
         0x00u, 0x3Eu, 0x7Cu, 0x42u, 0xF8u, 0xC6u, 0x84u, 0xBAu, 0x95u, 0xABu, 0xE9u, 0xD7u, 0x6Du, 0x53u,
         0x11u, 0x2Fu, 0x4Fu, 0x71u, 0x33u, 0x0Du, 0xB7u, 0x89u, 0xCBu, 0xF5u, 0xDAu, 0xE4u, 0xA6u, 0x98u,
@@ -252,7 +240,6 @@ static uint8_t bms_crc8_mxm(const uint8_t *data, uint8_t len) {
     return crc;
 }
 
-// UART RX task to simulate external charger attack
 __attribute__((used))
 static void bms_uart_apply_thresholds_unsafe(const uint8_t *payload, uint8_t payload_len) {
     printf("[BMS-RX] CMD=WRITEALL len=%u (expected %u)\r\n",
@@ -284,7 +271,6 @@ static void bms_uart_apply_write_device(const uint8_t *payload, uint8_t payload_
         return;
     }
 
-    // foxBMS-2 notes "TODO alive-counter?" in mxm_battery_management.c.
     if (payload_len > 4) {
         if (seq == g_bms_last_seq) {
             printf("[BMS-RX] WRITEDEVICE replay seq=%u (no anti-replay)\r\n", seq);
@@ -382,18 +368,18 @@ static void simulate_pack_voltage_current_temp(bms_state_t * s) {
         init = true;
     }
 
-    //电压： 340V ～ 430V来回扫
+    //电压
     raw_v += 0.5f;
     if (raw_v > 430.0f) {
         raw_v = 340.0f;
     }
 
-    //电流： -10A ～ +90A 来回扫
+    //电流
     raw_i += 0.2f;
     if (raw_i > 90.0f) {
         raw_i = -10.0f;
     }
-    //温度： -5°C ～ 65°C 来回扫
+    //温度
     raw_t += 0.1f;
     if (raw_t > 65.0f) {
         raw_t = -5.0f;
@@ -416,7 +402,6 @@ void uart_error_handle(app_uart_evt_t * p_event)
         APP_ERROR_HANDLER(p_event->data.error_code);
     }
     else if (p_event->evt_type == APP_UART_TX_EMPTY) {
-        // TX buffer empty
     }
 }
 
@@ -444,8 +429,8 @@ malicious_task(void* param) {
      * This task tries to modify a hotpatch that has been stored in memory
      */
     volatile uint32_t data;
-    (void)param;  // Suppress unused parameter warning
-    (void)data;   // Suppress unused variable warning
+    (void)param;  
+    (void)data;   
     for (uint32_t i = 0; i < 3; i++) {
         printf("Waiting...\r\n");
         vTaskDelay(1000);
@@ -453,14 +438,6 @@ malicious_task(void* param) {
 
     while (true) {
         printf("Attacking!\r\n");
-        // Note: __hotpatch_context_start is only available when hotpatch is enabled
-        // Uncomment when hotpatch is properly configured
-        // *(uint32_t *)((uint32_t)(&__hotpatch_context_start)) = 0xAABBCCDD;
-        // if (*(uint32_t *)((uint32_t)(&__hotpatch_context_start)) == 0xAABBCCDD) {
-        //     printf("Attack SUCCESS!\r\n");
-        // } else {
-        //     printf("Attack FAILED\r\n");
-        // }
         vTaskDelay(2000);
     }
 }
@@ -480,7 +457,7 @@ target_ram_function() {
 
 volatile uint32_t k = 0;
 void workload_task(void *param) {
-    (void)param;  // Suppress unused parameter warning
+    (void)param; 
     while (true) {
         for (uint32_t i = 0; i < 100000; i++) {
             k += i;
@@ -495,7 +472,7 @@ void workload_task(void *param) {
 volatile uint8_t hotpatch_code[1 * HP_SIZE] = { 0 };
 
 void reset_hotpatch(void) {
-    // reset the hotpatch to a valid version
+     
     volatile struct hp_header *hotpatch_header;
     hotpatch_header = (struct hp_header*)((uint32_t)(&hotpatch_code));
     hotpatch_header->type = HP_TYPE_REPLACEMENT;
@@ -519,8 +496,7 @@ task_hp_manager(void *parameters) {
     volatile struct hp_header *hotpatch_header;
     enum hp_manager_result manager_result;
     uint32_t identifier = 0;
-    (void)parameters;  // Suppress unused parameter warning
-
+    (void)parameters;  
     printf("[MANAGER] Task started!\r\n");
     printf("Starting Hotpatch Task\r\n");
 
@@ -583,17 +559,14 @@ int main(void)
     hp_mpu_init();
 
     ret_code_t err_code;
-    //2. 板级/RTOS/UART
-    /* Initialize clock driver for better time accuracy in FREERTOS */
-    //2.1 时钟
     err_code = nrf_drv_clock_init();
     APP_ERROR_CHECK(err_code);
     nrf_drv_clock_lfclk_request(NULL);
 
-    //2.2 日志
+    //2 日志
     APP_ERROR_CHECK(NRF_LOG_INIT(NULL));
     NRF_LOG_DEFAULT_BACKENDS_INIT();
-    //2.3 UART
+    //3. UART
     const app_uart_comm_params_t comm_params =
       {
           RX_PIN_NUMBER,
@@ -619,7 +592,7 @@ int main(void)
     APP_ERROR_CHECK(err_code);
 
     printf("[BMS-DEMO] Firmware booted. \r\n");
-    //3. 初始化 BMS 全局状态
+    //4. 初始化 BMS 全局状态
     g_bms_state.pack_voltage = 350.0f;
     g_bms_state.pack_current = 10.0f;
     g_bms_state.pack_temp    = 25.0f;
@@ -627,7 +600,7 @@ int main(void)
     g_bms_state.soh          = 100.0f;
     memset(&g_bms_faults, 0, sizeof(g_bms_faults));
 
-    //4. 创建 BMS 相关任务
+    //5. 创建 BMS 相关任务
     BaseType_t res;
 
     res = xTaskCreate(bms_monitor_task,
@@ -673,7 +646,7 @@ int main(void)
 #endif
 
 
-    //5. 创建 Kintsugi 管理任务
+    //6. 创建 Kintsugi 管理任务
     res = xTaskCreate(task_hp_manager, 
         configHP_TASK_NAME, 
         configMINIMAL_STACK_SIZE, 
@@ -681,8 +654,6 @@ int main(void)
         1, 
         &hp_manager_task_handle); 
     printf("HP Manager Task: %ld\r\n", (long)res); 
-
-    //6. malicious_task 专门针对 BMS，可以在这里创建： 
     
     //7. 启动调度器
     vTaskStartScheduler();

@@ -12,7 +12,6 @@
 #include "nrf_log_ctrl.h"
 #include "nrf_log_default_backends.h"
 
-// Example
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -40,9 +39,9 @@
 #include "hp_config.h"
 #include "hp_def.h"
 
-#define MAX_TEST_DATA_BYTES     (15U)                /**< max number of test bytes to be used for tx and rx. */
-#define UART_TX_BUF_SIZE 2048                         /**< UART TX buffer size. */
-#define UART_RX_BUF_SIZE 2048                         /**< UART RX buffer size. */
+#define MAX_TEST_DATA_BYTES     (15U)               
+#define UART_TX_BUF_SIZE 2048                       
+#define UART_RX_BUF_SIZE 2048                        
 #define UART_HWFC APP_UART_FLOW_CONTROL_DISABLED
 #define ENABLE_BMS_THRESHOLD_ATTACK 0
 #define ENABLE_BMS_CALIB_ATTACK 0
@@ -51,12 +50,10 @@
 
 #define BMS_UART_PREAMBLE 0xAA
 #define BMS_UART_MAX_PAYLOAD 64
-// foxBMS-2 Battery Management UART command codes (mxm_battery_management.h)
 #define BMS_CMD_WRITEALL 0x02
 #define BMS_CMD_WRITEDEVICE 0x04
 #define BMS_CMD_SET_THRESH BMS_CMD_WRITEALL
 
-// Demo register map for WRITEDEVICE payloads
 #define BMS_REG_STATE_VOLT 0x20
 #define BMS_REG_STATE_CURR 0x21
 #define BMS_REG_STATE_TEMP 0x22
@@ -114,13 +111,13 @@ static void kintsugi_enable_cycle_counter(void)
     KINTSUGI_TIMER->TASKS_START = 1;
 }
 
-// --- BMS demo types and tasks (copied/adjusted from before_patching) ---
+
 typedef struct {
-    float pack_voltage;    // 电池包电压 (V)
-    float pack_current;    // 电池包电流 (A)
-    float pack_temp;       // 电池包温度 (°C)
-    float soc;             // State of Charge (%)
-    float soh;             // State of Health (%)
+    float pack_voltage;    
+    float pack_current;    
+    float pack_temp;      
+    float soc;           
+    float soh;           
 } bms_state_t;
 
 typedef struct {
@@ -131,7 +128,6 @@ typedef struct {
     bool  utp;
 } bms_fault_flags_t;
 
-// BMS runtime state lives in normal RAM (read/write for BMS tasks)
 static bms_state_t       g_bms_state;
 static bms_fault_flags_t g_bms_faults;
 static volatile uint32_t g_boot_flag;
@@ -144,7 +140,6 @@ static uint8_t g_bms_last_seq;
 
 extern volatile uint32_t kintsugi_attack_cyccnt;
 
-// BMS safety thresholds live in hotpatch-protected context (read-only at runtime)
 typedef struct {
     float ovp;
     float uvp;
@@ -162,7 +157,6 @@ static volatile bms_thresholds_t g_bms_thresholds = {
     .utp = 0.0f,
 };
 
-// BMS calibration/config table in hotpatch-protected context
 typedef struct {
     float voltage_offset;
     float current_gain;
@@ -204,7 +198,6 @@ static void simulate_pack_voltage_current_temp(bms_state_t * s) {
         raw_t = -5.0f;
     }
 
-    // Apply calibration factors stored in hotpatch context
     s->pack_voltage = raw_v + g_bms_calibration.voltage_offset;
     s->pack_current = raw_i * g_bms_calibration.current_gain;
     s->pack_temp = raw_t + g_bms_calibration.temp_offset;
@@ -286,7 +279,6 @@ static void bms_comm_task(void *pv) {
 }
 
 static uint8_t bms_crc8_mxm(const uint8_t *data, uint8_t len) {
-    // CRC8 (poly 0xA6) per foxBMS-2 mxm_crc8.c
     static const uint8_t table[256] = {
         0x00u, 0x3Eu, 0x7Cu, 0x42u, 0xF8u, 0xC6u, 0x84u, 0xBAu, 0x95u, 0xABu, 0xE9u, 0xD7u, 0x6Du, 0x53u,
         0x11u, 0x2Fu, 0x4Fu, 0x71u, 0x33u, 0x0Du, 0xB7u, 0x89u, 0xCBu, 0xF5u, 0xDAu, 0xE4u, 0xA6u, 0x98u,
@@ -356,7 +348,6 @@ static void bms_uart_apply_write_device(const uint8_t *payload, uint8_t payload_
         return;
     }
 
-    // foxBMS-2 notes "TODO alive-counter?" in mxm_battery_management.c.
     if (payload_len > 4) {
         if (seq == g_bms_last_seq) {
             printf("[BMS-RX] WRITEDEVICE replay seq=%u (no anti-replay)\r\n", seq);
@@ -483,13 +474,6 @@ static void bms_uart_rx_task(void *pv) {
 }
 
 
-// ============================================================================
-// BMS Attack Task - Simple representative attack on BMS critical thresholds
-// ============================================================================
-// This task simulates an attacker trying to tamper with BMS safety thresholds.
-// The thresholds live in the hotpatch-protected context, so writes should be
-// intercepted by the MemManage exception handler.
-// ============================================================================
 void
 __attribute__((optimize("O0")))
 bms_attack_task(void* param) { 
@@ -497,7 +481,6 @@ bms_attack_task(void* param) {
     static int attack_count = 0;
     
     while (true) {
-        // Attempt 1: Try to overwrite safety thresholds
         attack_count++;
         g_attack_heartbeat++;
         printf("[ATTACK] Attempt #%d: Trying to tamper with BMS thresholds...\r\n", attack_count);
@@ -509,7 +492,6 @@ bms_attack_task(void* param) {
                g_bms_thresholds.otp,
                g_bms_thresholds.utp);
 
-        // This write should be intercepted by Kintsugi if thresholds are protected
         printf("[ATTACK] Writing fake thresholds: OVP=1000, OCP=999 (attempting bypass)\r\n");
         uint32_t start_cyccnt = kintsugi_read_cyccnt();
         kintsugi_attack_cyccnt = start_cyccnt;
@@ -518,7 +500,6 @@ bms_attack_task(void* param) {
         g_attack_end_cyccnt = kintsugi_read_cyccnt();
         g_attack_latency_cycles = g_attack_end_cyccnt - start_cyccnt;
 
-        // Check if the write succeeded or was blocked
         if (g_bms_thresholds.ovp == 1000.0f || g_bms_thresholds.ocp == 999.0f) {
             printf("[ATTACK-RESULT] ATTACK SUCCEEDED - thresholds were tampered\r\n");
             printf("[ATTACK-RESULT] Kintsugi protection NOT working\r\n");
@@ -564,7 +545,6 @@ bms_calibration_attack_task(void* param) {
     }
 }
 
-// Original hotpatch code attack (kept for reference)
 void
 __attribute__((optimize("O0")))
 vulnerable_task(void* param) { 
@@ -573,12 +553,10 @@ vulnerable_task(void* param) {
      */
     volatile uint32_t data;
     while (true) {
-        // read from the hotpatch code until it contains some data
         data = *(uint32_t *)((uint32_t)((uint32_t)&__hotpatch_code_start + 8));
         (void)data;
         DEBUG_LOG("Read (0x%08X): %08X\r\n", (uint32_t)((uint32_t)&__hotpatch_code_start + 8), data);
-        *(uint32_t *)((uint32_t)((uint32_t)&__hotpatch_code_start + 8)) = 0xAABBCCDD; // write a dummy value to the hotpatch code
-
+        *(uint32_t *)((uint32_t)((uint32_t)&__hotpatch_code_start + 8)) = 0xAABBCCDD; 
         if (*(uint32_t *)((uint32_t)((uint32_t)&__hotpatch_code_start + 8)) == 0xAABBCCDD) {
             DEBUG_LOG("Malicious Attack Success!\r\n");
         } else {
@@ -610,77 +588,76 @@ target_ram_function() {
     volatile uint32_t result;
 
     result = 0;
-	// 1
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-	// 2
+
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-	// 3
+
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-	// 4
+
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-	// 5
+
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-	// 6
+
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-	// 7
+
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-	// 8
+
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-	// 9
+
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-	// 10
+
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-                    	// 10
+                    	
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-                    	// 10
+                    	
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-                    	// 10
+                    	
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-                    	// 10
+                    
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
                     "nop\n");
-                    	// 10
+                    
     __asm volatile( "nop\n"
                     "nop\n"
                     "nop\n"
@@ -783,7 +760,6 @@ int main(void)
     APP_ERROR_CHECK(err_code);
     g_progress_flags |= (1u << 4);
 
-    /* --- BMS demo initialization (from before_patching) --- */
     printf("[BMS-DEMO] Firmware booted. \r\n");
     /* init BMS state */
     g_bms_state.pack_voltage = 350.0f;
@@ -794,7 +770,6 @@ int main(void)
     memset(&g_bms_faults, 0, sizeof(g_bms_faults));
     g_progress_flags |= (1u << 5);
 
-    /* create BMS tasks */
     BaseType_t res;
     res = xTaskCreate(bms_monitor_task,
                       "BMS_MON",
@@ -843,9 +818,8 @@ int main(void)
     hotpatch_header->type = HP_TYPE_REDIRECT;
     hotpatch_header->target_address = (uint32_t)&target_ram_function;
     hotpatch_header->code_size = 8;
-    hotpatch_header->code_ptr = 0;//&hotpatch_code_bytes;
+    hotpatch_header->code_ptr = 0;
 
-    // Launch attack tasks (tampering attempts)
 #if ENABLE_BMS_THRESHOLD_ATTACK
     printf("Task BMS_ATTACK: %d\r\n", xTaskCreate(bms_attack_task, "BMS_ATTACK", configMINIMAL_STACK_SIZE, NULL, 5, &malicious_task_handle));
 #endif
@@ -864,7 +838,6 @@ int main(void)
     g_progress_flags |= (1u << 7);
     vTaskStartScheduler();
     
-    //prvCheckOptionsWrapper(0, 0);
     target_ram_function();
     while(1) {};
 }

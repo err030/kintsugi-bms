@@ -86,7 +86,6 @@ def render_svg(xs, series, path):
         "<rect width='100%' height='100%' fill='white' stroke='black'/>",
     ]
 
-    # Grid + Y ticks
     y_ticks = 5
     for i in range(y_ticks + 1):
         y_val = min_y + (max_y - min_y) * i / y_ticks
@@ -98,7 +97,6 @@ def render_svg(xs, series, path):
             f"<text x='{pad_left - 6}' y='{y_pos + 4:.1f}' font-size='11' text-anchor='end'>{y_val:.2f}</text>"
         )
 
-    # X ticks
     x_ticks = min(6, len(xs)) if xs else 1
     for i in range(x_ticks):
         x_val = x_min + x_span * i / max(1, x_ticks - 1)
@@ -110,7 +108,6 @@ def render_svg(xs, series, path):
             f"<text x='{x_pos:.1f}' y='{height - pad_bottom + 18}' font-size='11' text-anchor='middle'>{int(round(x_val))}</text>"
         )
 
-    # Axes
     svg.append(
         f"<line x1='{pad_left}' y1='{height - pad_bottom}' x2='{width - pad_right}' y2='{height - pad_bottom}' stroke='black'/>"
     )
@@ -118,7 +115,6 @@ def render_svg(xs, series, path):
         f"<line x1='{pad_left}' y1='{pad_top}' x2='{pad_left}' y2='{height - pad_bottom}' stroke='black'/>"
     )
 
-    # Polylines + points
     for item in series:
         points = [f"{sx(x):.1f},{sy(y):.1f}" for x, y in zip(xs, item["ys"])]
         svg.append(
@@ -129,7 +125,6 @@ def render_svg(xs, series, path):
                 f"<circle cx='{sx(x):.1f}' cy='{sy(y):.1f}' r='2.3' fill='{item['color']}'/>"
             )
 
-    # Labels + title
     svg.append(
         f"<text x='{pad_left}' y='24' font-size='14' font-weight='bold'>BMS Threshold Tamper Protection Latency</text>"
     )
@@ -146,7 +141,6 @@ def render_svg(xs, series, path):
         f"<text x='{width / 2:.1f}' y='{height - 40}' font-size='12' text-anchor='middle'>Sample</text>"
     )
 
-    # Legend
     legend_x = width - pad_right - 260
     legend_y = 18
     legend_w = 240
@@ -163,7 +157,6 @@ def render_svg(xs, series, path):
             f"<text x='{legend_x + 24}' y='{y + 4}' font-size='11'>{item['label']}</text>"
         )
 
-    # Summary lines
     summary_y = height - 20
     for idx, item in enumerate(series):
         stats = item["stats"]

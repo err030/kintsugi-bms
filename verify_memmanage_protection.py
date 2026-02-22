@@ -22,10 +22,9 @@ def parse_memrd_output(output):
     lines = output.strip().split('\n')
     for line in lines:
         if ':' in line:
-            # 提取冒号后的十六进制值
             parts = line.split(':')
             if len(parts) >= 2:
-                hex_part = parts[1].split()[0]  # 取冒号后的第一个值
+                hex_part = parts[1].split()[0] 
                 try:
                     return int(hex_part, 16)
                 except:
@@ -37,10 +36,10 @@ def main():
     print()
     
     # SCB 寄存器地址
-    CFSR_ADDR = "0xE000ED28"  # Configurable Fault Status Register
-    MMFAR_ADDR = "0xE000ED34"  # MemManage Fault Address Register
+    CFSR_ADDR = "0xE000ED28"  
+    MMFAR_ADDR = "0xE000ED34" 
     
-    # Hotpatch 保护区域范围（从链接器脚本）
+    # Hotpatch 保护区域范围
     HP_SLOT_START = 0x20000020
     HP_SLOT_END = 0x200000f8
     HP_CODE_START = 0x20000148
@@ -48,7 +47,6 @@ def main():
     HP_CONTEXT_START = 0x20000000
     HP_CONTEXT_END = 0x20000020
     
-    # 读取 CFSR
     print(f"[*] 读取 CFSR (0x{CFSR_ADDR[2:]})...")
     stdout, stderr, rc = run_nrfjprog(f"nrfjprog --family nrf52 --memrd {CFSR_ADDR} --n 4")
     

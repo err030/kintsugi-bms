@@ -11,7 +11,6 @@ import numpy as np
 
 
 PHASES = ["before", "during", "after"]
-# Number of injected frames per phase in our collection runs.
 TOTAL_FRAMES = int(os.environ.get("UART_ATTACK_TOTAL_FRAMES", "100"))
 ATTACKS = [
     ("overflow", "overflow", "CMD=WRITEALL"),
@@ -31,7 +30,6 @@ def count_markers(text: str, accept_token: str) -> tuple[int, int, int]:
         if "[IMPORTANT]" in line:
             raw_blocked += 1
 
-    # We visualize "blocked vs unblocked" as a per-frame outcome.
     blocked_frames = min(TOTAL_FRAMES, raw_blocked)
     return accepted, blocked_frames, raw_blocked
 
@@ -84,8 +82,8 @@ def plot_summary(counts: dict[tuple[str, str], tuple[int, int, int]], out_path: 
     fig, axes = plt.subplots(1, len(ATTACKS), figsize=(16, 4), sharey=False)
     width = 0.32
     colors = {
-        "blocked": "#4C78A8",    # blue = good direction
-        "unblocked": "#F58518",  # orange = bad direction
+        "blocked": "#4C78A8",    
+        "unblocked": "#F58518", 
     }
 
     for ax, (attack, _, _) in zip(axes, ATTACKS):
@@ -96,7 +94,6 @@ def plot_summary(counts: dict[tuple[str, str], tuple[int, int, int]], out_path: 
         bars_blocked = ax.bar(x - width / 2, blocked_vals, width, label="Blocked", color=colors["blocked"])
         bars_unblocked = ax.bar(x + width / 2, unblocked_vals, width, label="Unblocked", color=colors["unblocked"])
 
-        # Label bars with counts only (no per-phase Total labels).
         ax.bar_label(bars_blocked, padding=2, fontsize=9)
         ax.bar_label(bars_unblocked, padding=2, fontsize=9)
 

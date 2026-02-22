@@ -68,7 +68,7 @@ def build_frame(payload: bytes) -> bytes:
     return bytes([BMS_UART_PREAMBLE, length]) + payload + bytes([checksum])
 
 
-# WRITEALL：阈值表批量写入；可通过 padding 构造溢出攻击
+# 阈值表批量写入；可通过 padding 构造溢出攻击
 def build_writeall(ovp: float, uvp: float, ocp: float, otp: float, utp: float, pad_bytes: int, pad_value: int) -> bytes:
     payload = struct.pack("<fffff", ovp, uvp, ocp, otp, utp)
     if pad_bytes > 0:
@@ -84,7 +84,7 @@ def pack_scaled(value: float, scale: float, field_name: str) -> int:
     return raw & 0xFFFF
 
 
-# WRITEDEVICE：用于状态伪造、校准污染、重放攻击
+# 用于状态伪造、校准污染、重放攻击
 def build_write_device(reg: int, raw_u16: int, seq: int | None) -> bytes:
     lsb = raw_u16 & 0xFF
     msb = (raw_u16 >> 8) & 0xFF
