@@ -1,0 +1,13 @@
+attack,phase,total_frames,blocked_frames,unblocked_frames,accepted_markers,raw_blocked_lines,unblocked_rate
+overflow,before,100,0,100,100,0,100.0
+overflow,during,100,100,0,100,681,0.0
+overflow,after,100,100,0,100,687,0.0
+state,before,100,0,100,100,0,100.0
+state,during,100,0,100,100,0,100.0
+state,after,100,0,100,100,0,100.0
+replay,before,100,0,100,99,0,100.0
+replay,during,100,100,0,99,100,0.0
+replay,after,100,100,0,99,100,0.0
+calib,before,100,0,100,100,0,100.0
+calib,during,100,100,0,100,100,0.0
+calib,after,100,100,0,100,100,0.0

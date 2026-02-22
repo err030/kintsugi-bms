@@ -1,0 +1,6 @@
+matplotlib
+numpy
+pyelftools
+pyserial
+tabulate
+cfclient

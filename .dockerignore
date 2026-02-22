@@ -1,0 +1,8 @@
+external/rtos/FreeRTOS
+external/rtos/FreeRTOS-Kernel
+external/rtos/amazon-freertos
+external/lib/picotcp
+# ignore local toolchain if present (Dockerfile will download it)
+tools/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi
+# ignore extracted SDK folder so unzip in Docker can run without prompts
+external/sdk/nRF5_SDK_17.1.0_ddde560/

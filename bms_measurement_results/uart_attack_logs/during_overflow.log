@@ -1,0 +1,1128 @@
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000[[[[h[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=1
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented wri[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[s[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: K[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[n[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[l[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented wri[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[a[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[a[BMS][MON] [[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prev[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi[[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: K[[[[[[IMPORTANT][[[[[[[IMPORTANT][[[[[[[IMPORTANT][[[[[[[IMPORTANT][[[[hWorkload Task -90019592[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[([BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT][[[[[[[[[[[[[[[[[[[[[[[[[[[[[[e[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[([BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C[[[[[[[[[[[[[[[[[[[[[[[[[[[[s[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMP[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[s[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevent[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMP[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[c[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x200[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[n[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi [[[[[[[[[[[[[[[[[[[[[[[[[[[[n[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[u[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[a[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[e[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kints[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[a[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x20[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[g[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C[[[[[A[[[[[[[[[[[[[[[[[[[[[[[[[[[ [BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at add[[[[[[[[[[[[[[[[[[[[[[[[[[[i[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMP[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[a[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[n[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[hWorkload Task -195213216
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[e[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[s[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMP[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[g[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kints[[[[[C[[[[[[[[[[[[[[[[[[[[[[[[[[[n[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented wri[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[c[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write [[[[[[[[[[[[[[[[[[[[[[[[[[[[ [BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: K[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[n[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPOR[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[n[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[a[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTA[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[e[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x[[[[[[[[[[[[[[[[[[[[[[[[[[[[[n[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[g[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x200[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at add[[[[[[[[[[[[[[[[[[[[[[[[[[[[g[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsu[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[c[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[n[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ [BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi pr[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[([BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsug[[[[IMPORTANT]:[[[[[[[IMPORTANT][[[[[[Workload[[[[[[[[[[[[[g[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: [[[[[[[[[[[[[[[[[C[[[[[[[[[[[[[[n[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kints[[[[[[[[[[[[[[[[[[[[[[[[[[[ [BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[u[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[c[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsug[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[e[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevent[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTA[[[[[[[[[[[[[[[[[[[[[[[[[[[[[s[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[u[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented w[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[g[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[e[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMP[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[S[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORT[[[[[[[[[[[[[[[[[[[[[[[[[[[[[u[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsu[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsu[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ [BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kint[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2[[[[[[[[[[[[[[[[[[[[[[[[[[[[[n[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[I[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT][[[[[[[[[[[[[[[[[[[[[[[[[[[[[[-Workload Task 1214752192
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x200[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[g[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x200[[[[[[B[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at add[[[[[[[[[[[[[[[[[[[[[[[[[[[[[a[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevente[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi preven[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[s[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[l[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[c[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevent[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[n[BMS][MON][B[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x20000[[[[[[[[[[[[[[[[[[[[[[[[[[[[([BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]:[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[X[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x20[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[u[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[B[[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevent[[[[[[[[[[[[[[[[[[[[[[[[[[[h[[[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x20000[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[d[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[e[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPO[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[g[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[u[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTAN[[[[[[[[[[[[[[[[[[[[[[[[[[[[[g[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi pr[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[n[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTAN[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[(Workload Task 1919734896
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPO[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[s[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x20000[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[a[BMS][COMM] TX frame:S[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at addre[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[g[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTAN[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[e[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[([BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at add[[[[[[[[[[[[[[[[[[[[[[[[[[[[[h[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x[[[[[[[[[[[[ [[[[[[[[[[[[[[[[[[[[n[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPO[[[[[[[[[[[[[[[[[[[[[[[[[[[i[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[n[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[e[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] CMD=WRITEALL len=36 (expected 20)
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prevented write at address 0x2000000C
+[IMPORTANT]: Kintsugi prev[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[e[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task -1670249696
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task -965266992
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task -260284288
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task 444698416
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task 1149681120
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task 1854663824
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task -1735320768
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task -1030338064
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task -325355360
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task 379627344
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task 1084610048
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task 1789592752
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=1
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+Workload Task -1800391840
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=1
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PR

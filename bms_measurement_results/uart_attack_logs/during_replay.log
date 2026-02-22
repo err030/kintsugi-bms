@@ -1,0 +1,754 @@
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+Workload Task -1290622352
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=1
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+Workload Task -585639648
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+Workload Task 119343056
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+Workload Task 824325760
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+Workload Task 1529308464
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS-RX] WRITEDEVICE replay seq=7 (no anti-replay)
+[IMPORTANT]: Kintsugi prevented write at address 0x20000000
+[BMS-RX] CALIB voltage_offset=V
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task -2060676128
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task -1355693424
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task -650710720
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+Workload Task 54271984
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+Workload Task 759254688
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+Workload Task 1464237392
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+Workload Task -2125747200
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task -1420764496
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task -715781792
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task -10799088
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task 694183616
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task 1399166320
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=0
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task 2104149024
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=1
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][COMM] TX frame: V= SoC=% SoH=% FAULT=1
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][PROT] FAULT! V= I= T= (OVP=1 UVP=0 OCP=0 OTP=0 UTP=0)
+[BMS][MON] V=V I=A T=C
+[BMS][EST] SoC=% SoH=%
+Workload Task -1485835568
+[BMS

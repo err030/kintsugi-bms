@@ -1,0 +1,28 @@
+# IDE / local
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local helper outputs / transient logs (keep BMS result logs under bms_measurement_results)
+docker_build.log
+docker_build2.log
+flash_*.log
+memdump_full.log
+
+# Conversation/archive notes (not part of artifact code/results)
+conversation_full.txt
+conversation_full.zip
+conversation_readme.txt
+
+# Large SDK archives duplicated in repo and >100MB (GitHub push will reject)
+nRF5_SDK_17.1.0_ddde560.zip
+external/sdk/nRF5_SDK_17.1.0_ddde560.zip
+
+# Huge generated firmware binaries (>500MB each), keep sources/results instead
+*.bin
+
+# Optional local backup snapshots created during recovery
+afety_snapshot_*.tar.gz
+*kintsugi_bms_safety_snapshot_*.tar.gz
